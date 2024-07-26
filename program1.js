@@ -42,12 +42,4 @@ const getTotalIsles = function (grid) {
   return count;
 };
 
-let grid= [
-  ["L","L","W","W","W"],
-  ["L","L","W","W","W"],
-  ["W","W","L","W","W"],
-  ["W","W","W","L","L"],
-]
-
-console.log(getTotalIsles(grid));
 module.exports = getTotalIsles;

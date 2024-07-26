@@ -45,6 +45,5 @@ const decodeTheRing = function (s, p) {
   else return false;
 };
 
-// console.log(decodeTheRing("hello", "h*llo"));
 
 module.exports = decodeTheRing;
